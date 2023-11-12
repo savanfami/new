@@ -1,0 +1,43 @@
+
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+  }
+  
+  .icon-hover:hover i {
+    color: #3b71ca !important;
+  }
+  
+  .img-fluid{
+    background-size:cover;
+  }
+  
+  @media (max-width:576px){
+    .sub-headi {
+      font-size: 25px;
+    } 
+  }
+
+  .custom-card{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .custom-image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+  }
+  .custom-button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #014122; 
+    border-radius: 0 0 20px 20px; 
+    text-align: center;  
+  }
